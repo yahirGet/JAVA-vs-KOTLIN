@@ -1,0 +1,52 @@
+/*  
+ESTO ES UN PARRAFO QUE SE COLOCO COMO COMENTARIO*/
+/* SELECTORES DE TIPO */
+h1{
+    color:rgb(5, 1, 1);
+    background-color:lightgreen;
+    text-align:center;
+    
+}
+p{
+    color:rgb(20, 33, 215);
+
+
+}
+/* SELECTORES CON ID */
+#parrafo-2{
+    background-color:skyblue;
+   
+}
+/* SELECTORES CON CLASE */
+.text-32{
+    font-size: 32px;
+
+}
+.text-20{
+    font-size: 20px;
+}
+.bg-skyblue{
+    background-color:skyblue;
+}
+.bg-steelblue{
+    background-color:steelblue;
+}
+.text-white{
+    color:white;
+}
+/* SELECTORES CON HIJOS DIRECTOS */
+.hijo-directo > li{
+    background-color:lightgreen;
+}
+/* SELECTOR DE HIJOS DESCENDIENTES */
+.hijo-descendiente li{
+    background-color:lightcoral;
+}
+body{
+    background-color:lightgray;
+}
+/* SELECTORES DE ATRIBUTOS */
+.selectores-atributos a[href]{
+    color: orangered;
+   
+}
